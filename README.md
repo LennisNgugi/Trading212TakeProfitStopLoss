@@ -1,7 +1,7 @@
 
 #  Trading212 Take Profit / Stop Loss Server
 
-Node.js automation tool that monitors your Trading 212 portfolio and automatically sells selected stocks when either a **take profit** or **stop loss** threshold is reached.
+A Node.js automation tool that monitors your Trading 212 portfolio and automatically sells selected stocks when either a **take profit** or **stop loss** threshold is reached.
 
 This project uses the Trading 212 API to track portfolio value in real time and send market sell orders when conditions are met.
 

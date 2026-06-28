@@ -1,7 +1,7 @@
 {
   "name": "Trading212TakeProfitStopLoss",
   "version": "1.2.7",
-  "description": "Node.js automation tool that monitors your Trading 212 portfolio and automatically sells selected stocks when either a take profit or stop loss threshold is reached.",
+  "description": "Built as a personal trading automation project using the Trading 212 API.",
   "type": "module",
   "main": "app.js",
   "scripts": {

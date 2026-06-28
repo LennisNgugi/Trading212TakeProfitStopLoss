@@ -251,8 +251,3 @@ Higher = fewer API calls
 ##  License
 
 MIT License — free to use and modify for personal or educational use.
- 
-
-##  Notes for reader
-
-Built as a personal trading automation project using the Trading 212 API.

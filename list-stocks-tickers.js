@@ -69,11 +69,7 @@ async function listStocks() {
         Value:     ${symbol}${value.toFixed(2)}
         `);
     }
-
-    //console.log("\n========== TICKERS ==========\n");
-    //positions.forEach(stock => {
-    //  console.log(stock.instrument?.ticker ?? "UNKNOWN");
-    //});
+ 
     console.log("\nTickets for STOCKS List in app.js\n");
 
     const tickers = sortedPositions

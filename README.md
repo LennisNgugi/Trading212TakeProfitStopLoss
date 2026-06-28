@@ -228,7 +228,7 @@ Higher = fewer API calls
 
 ##  Risk Notes
 
-- Market orders execute instantly at current price
+- Market orders sell instantly at current price
 - Slippage may occur
 - Stop loss is not guaranteed at exact price
 - API delays may affect timing

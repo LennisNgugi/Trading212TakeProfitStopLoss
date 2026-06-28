@@ -1,0 +1,17 @@
+{
+  "name": "Trading212TakeProfitStopLoss",
+  "version": "1.2.7",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lennis Ngugi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2"
+  }
+}

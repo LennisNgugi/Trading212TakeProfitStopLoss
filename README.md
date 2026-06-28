@@ -207,7 +207,8 @@ Only these tickers will be monitored and sold.
 ### Interval Control
 
 ```js
-INTERVAL = 60000; // 60 seconds
+// 60 seconds
+INTERVAL = 60000; 
 ```
 
 Lower = faster updates  

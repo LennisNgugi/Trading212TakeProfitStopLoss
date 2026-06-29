@@ -18,14 +18,14 @@ This project is for educational purposes only:
 
 ##  Features
 
--  Monitors live Trading 212 portfolio value
--  Take profit automation (sells when target reached)
--  Stop loss protection (sells when value drops below threshold)
--  Tracks multiple stocks simultaneously
--  Continuous monitoring with configurable interval
--  Secure API authentication via environment variables
--  Test mode for safe orders
--  Portfolio inspection tools included
+-  Monitors live Trading 212 portfolio value.
+-  Take profit automation (sells when target reached).
+-  Stop loss protection (sells when value drops below threshold).
+-  Tracks multiple stocks simultaneously.
+-  Continuous monitoring with configurable interval.
+-  Secure API authentication via environment variables.
+-  Test mode for safe orders.
+-  Portfolio inspection tools included.
 
 
 ##  Project Structure
@@ -58,8 +58,8 @@ BASE_URL=https://demo.trading212.com/api/v0
 API_KEY=your_api_key_here
 API_SECRET=your_api_secret_here
 
-TAKE_PROFIT=100
-STOP_LOSS=80
+TAKE_PROFIT=150
+STOP_LOSS=50
 INTERVAL=60000
 ```
 
@@ -163,7 +163,7 @@ const TEST_MODE = true;
 - Orders are NOT sent to Trading 212
 - Logs simulated sell orders only
 
-### To enable live trading:
+### To enable live algorithmic trading:
 
 ```js
 const TEST_MODE = false;
@@ -236,9 +236,7 @@ Higher = fewer API calls
  
 
 ##  Future Improvements
-
-- Per-stock take profit / stop loss
-- Trailing stop loss system
+ 
 - Partial sell support
 - Web dashboard UI
 - SMS / email alerts

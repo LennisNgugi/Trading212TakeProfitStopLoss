@@ -173,7 +173,7 @@ const TEST_MODE = false;
 ##  Core Files Explained
 
 ### `app.js`
-- Main trading Server
+- Main trading server
 - Portfolio monitoring loop
 - Take profit / stop loss logic
 - Order sell
